@@ -1,6 +1,6 @@
 package spark
 
-//import spark.dao.{CourseClickCountDAO, CourseSearchClickCountDAO}
+import spark.dao.{CourseClickCountDAO, CourseSearchClickCountDAO}
 import spark.domain.{ClickLog, CourseClickCount, CourseSearchClickCount}
 import spark.utils.DateUtils
 import org.apache.spark.SparkConf
